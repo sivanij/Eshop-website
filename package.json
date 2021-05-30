@@ -1,0 +1,20 @@
+{
+  "name": "upgrad-eshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html -p 3001 --open",
+    "build": "parcel build index.html",
+    "mockserver": "json-server mock-api/db.json",
+    "dev": "npm-run-all --parallel mockserver start"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "json-server": "0.16.3",
+    "npm-run-all": "4.1.5",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
